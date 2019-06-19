@@ -1,12 +1,16 @@
 {
   "name": "starter-code-27",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "enzyme": "latest",
     "enzyme-adapter-react-16": "1.7.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-react": "^7.9.1",
     "react": "16.6.3",
     "react-dom": "16.6.3",
     "react-jsonschema-form": "1.0.6",
@@ -17,15 +21,15 @@
     "redux": "4.0.1",
     "superagent": "4.0.0-beta.5"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint",
   },
-  "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>__tests__/jest-setup.js"
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
