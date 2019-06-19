@@ -6,10 +6,10 @@
 ### Morgana Spake  
   
 ### Links and Resources  
-* [submission PR](https://github.com/401-advanced-javascript-mspake/lab-27/pull/1)  
+* [submission PR](https://github.com/401-advanced-javascript-mspake/lab-27/pull/2)  
 * [travis](https://www.travis-ci.com/401-advanced-javascript-mspake/lab-27)  
-* [Netlify](https://competent-einstein-63fc75.netlify.com/#)   
-* [AWS](https://tests-and-styling.d1sqzndvbbhh49.amplifyapp.com/)    
+* [Netlify](https://competent-einstein-63fc75.netlify.com/)   
+* [AWS](https://submission.d1sqzndvbbhh49.amplifyapp.com/)    
   
 ### Modules   
 #### `counter.js, header.js, footer.js`    
