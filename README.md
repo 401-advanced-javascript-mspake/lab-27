@@ -11,9 +11,6 @@
 * [Netlify](https://competent-einstein-63fc75.netlify.com/#)   
 * [AWS](https://tests-and-styling.d1sqzndvbbhh49.amplifyapp.com/)    
   
-#### Documentation  
-<!-- * [styleguide](http://xyz.com) (React assignments)   -->
-  
 ### Modules   
 #### `counter.js, header.js, footer.js`    
 ##### Exported Values and Methods  
