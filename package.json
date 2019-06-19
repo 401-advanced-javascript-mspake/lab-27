@@ -8,8 +8,8 @@
   "dependencies": {
     "enzyme": "latest",
     "enzyme-adapter-react-16": "1.7.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
     "react-jsonschema-form": "1.0.6",
     "react-redux": "5.1.1",
     "react-router-dom": "4.3.1",
@@ -27,9 +27,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>__tests__/jest-setup.js"
   },
   "browserslist": {
     "production": [
