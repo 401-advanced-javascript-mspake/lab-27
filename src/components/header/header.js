@@ -6,12 +6,12 @@ import React from 'react';
  * @exports Header
  */
 
- /**
+/**
  * @class Header
  * extends React.Component
  */
 class Header extends React.Component {
-    /**
+  /**
    * Render
    * @method render
    * React render method. Renders the Header

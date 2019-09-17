@@ -6,13 +6,13 @@ import React from 'react';
  * @exports Footer
  */
 
- /**
+/**
  * @class Footer
  * extends React.Component
  */
 
 class Footer extends React.Component {
-    /**
+  /**
    * Render
    * @method render
    * React render method. Renders the Footer

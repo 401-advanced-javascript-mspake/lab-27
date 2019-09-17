@@ -21,18 +21,18 @@ class Counter extends React.Component {
    * @method handleUP
    * @param {*} event - takes in the click event
    */
-  handleUp = e => {
-    let count = this.state.count + 1;
+  handleUp = () => {
+    const count = this.state.count + 1;
     this.updateCounter(count);
   };
 
-    /**
+  /**
    * Handle down
    * @method handleDown
    * @param {*} event - takes in the click event
    */
-  handleDown = e => {
-    let count = this.state.count - 1;
+  handleDown = () => {
+    const count = this.state.count - 1;
     this.updateCounter(count);
   };
 
@@ -57,7 +57,7 @@ class Counter extends React.Component {
    * React render method. Renders the Counter
    */
   render() {
-    let classes = ['count', this.state.polarity].join(' ');
+    const classes = ['count', this.state.polarity].join(' ');
     return (
       <section className="counter">
         <a href="#" className="down clicker" onClick={this.handleDown}>
